@@ -1,4 +1,4 @@
-//Database connection configuration
+//Database connection configuration for the Note Taking App API
 const mongoose = require('mongoose');
 
 const connectDb = async () => {
