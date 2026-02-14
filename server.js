@@ -18,6 +18,7 @@ app.get('/', (req, res) => {
 const noteRoutes = require('./routes/noteRoutes');
 app.use('/', noteRoutes); 
 
+// Listen for requests
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
