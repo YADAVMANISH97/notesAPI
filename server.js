@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Notes API');
+    res.send('Hello World! This is the Note Taking App API.');
 });
 
 // Mount routes
