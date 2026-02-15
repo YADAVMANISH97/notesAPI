@@ -7,6 +7,7 @@ const port = process.env.PORT || 3001;
 const connectDb = require('./config/db');
 connectDb();
 
+// Middleware to parse JSON and URL-encoded data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
