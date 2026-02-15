@@ -7,10 +7,12 @@ const port = process.env.PORT || 3001;
 const connectDb = require('./config/db');
 connectDb();
 
-// Middleware to parse JSON and URL-encoded data
+// Middleware to parse JSON 
 app.use(express.json());
+// Middleware to parse URL-encoded data
 app.use(express.urlencoded({ extended: true }));
 
+// Basic route for testing
 app.get('/', (req, res) => {
     res.send('Hello World! This is the Note Taking App API.');
 });
