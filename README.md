@@ -13,7 +13,7 @@ npm install
 npm start
 ```
 
-## API Endpoints
+## API Endpoints of notesAPI
 - `GET /notes` - Get all notes
 - `POST /notes` - Create a new note
 - `GET /notes/:id` - Get note by ID
